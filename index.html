@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./assets/css/flex.css">
     <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/icon/style.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
 
     <title>Document</title>
 </head>
@@ -44,24 +46,29 @@
             </div>
         </div>
     </header>
-    <section class="container G-justify-space-between">
+    <section class="container ">
+        <div class="G-justify-space-between">
         <div class="section-block">
             <div class="about">
                 <h2>About</h2>
                 <div class="about">
                 <p>
                     sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud sit amet, consectetur adipiscing elit, sed do
-                </p></div>
+                </p>
+            </div>
             </div>
             <div class="photo">
                 <img src="./assets/images/about_img.png" alt="images">
             </div>
         </div>
-        <div class="section-block foto">
-            <img src="./assets/images/about_right.jpg" alt="">
+        <div class="section-block ">
+            <div class="foto">
+            <img src="./assets/images/about_right.jpg" alt="images">
         </div>
+    </div>
+</div>
     </section>
-    <section class="container G-justify-space-between" style="background-color: #250e90ef;">
+    <section class="container G-flex" style="background-color: #250e90ef;">
         <div class="section-block">
             <div class="manufacture">
                 <h3>Software Maker</h3>
@@ -79,7 +86,7 @@
                 <h4>What We Do</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
             </div>
-            <div class="G-flex G-justify-center">
+            <div class=" information-block G-flex G-justify-center">
             <div class="information">
                 <h6 class="G-justify-center">1</h6>
                 <h5>Software Maker</h5>
@@ -87,12 +94,12 @@
             </div>
             <div class="information">
                 <h6 class="G-justify-center">1</h6>
-                <h5>Software Maker</h5>
+                <h5>Expense Management Maker</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
             </div>
             <div class="information">
                 <h6 class="G-justify-center">1</h6>
-                <h5>Software Maker</h5>
+                <h5>Group Revenue Maker</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
             </div>
         </div>
@@ -107,7 +114,7 @@
                 <h5>Our Team</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
             </div>
-            <div class="G-flex G-justify-center ">
+            <div class=" team-inform G-flex G-justify-center ">
                 <div class="images G-align-end" style="background-image: url(./assets/images/team_img1.jpg);">
                   <div class="name G-justify">
                      <div class=" G-justify-center G-align-end "> 
@@ -124,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="images G-align-end" style="background-image: url(./assets/images/team_img1.jpg);">
+        <div class="images G-align-end" style="background-image: url(./assets/images/team_img2.jpg);">
             <div class="name G-justify">
                <div class=" G-justify-center G-align-end "> 
               <a href="index.html"><i class="icon-facebook"></i></a>
@@ -133,14 +140,14 @@
               <a href="index.html"><i class="icon-instagram"></i></a>
           </div>
              <div class="G-justify-center">
-              <h6>Jose Haward</h6>
+              <h6>Sandy Miller</h6>
           </div> 
               <div class="G-justify-center">
                   <p>Software</p>
           </div>
       </div>
   </div>
-  <div class="images G-align-end" style="background-image: url(./assets/images/team_img1.jpg);">
+  <div class="images G-align-end" style="background-image: url(./assets/images/team_img3.jpg);">
     <div class="name G-justify">
        <div class=" G-justify-center G-align-end "> 
       <a href="index.html"><i class="icon-facebook"></i></a>
@@ -149,7 +156,7 @@
       <a href="index.html"><i class="icon-instagram"></i></a>
   </div>
      <div class="G-justify-center">
-      <h6>Jose Haward</h6>
+      <h6>Mark Den</h6>
   </div> 
       <div class="G-justify-center">
           <p>Software</p>
@@ -171,7 +178,7 @@
                 <input type="name" placeholder="Name">
                 <input type="email" placeholder="Email">
                 <input type="phone number" placeholder="Phone Number">
-                <input type="message" placeholder="Message">
+                <textarea name="message" placeholder="Message" id=""></textarea>
                 <button>SEND</button>
             </div>
             <div class="phone">
@@ -188,11 +195,97 @@
         </div>
         </div>
         <div class="section-block">
-            <iframe src="url/https://www.google.com/maps/@40.1674264,44.2905898,15z?entry=ttu" frameborder="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12195.483891416032!2d44.2905898!3d40.1674264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sam!4v1722925297682!5m2!1sru!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
     </section>
-  
+    <section class="container">
+        <div class="inform-block">
+            <div class="inform">
+                <h4>Testimonials</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            </div>
+            <div class="slick-block">
+            <div class="inform-block">
+                <div class="best-comments">
+                    <div class="best-comments-info">
+                <img src="./assets/images/our.png" alt="images">
+
+                <h3>Due markes</h3>
+                <h4>Rental</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+                <i class="icon-test G-justify-center"></i>
+            </div>
+        </div>
+        </div>
+        <div class="inform-block">
+            <div class="best-comments">
+                <div class="best-comments-info">
+            <img src="./assets/images/our.png" alt="images">
+
+            <h3>Due markes</h3>
+            <h4>Rental</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+            <i class="icon-test G-justify-center"></i>
+        </div>
+    </div>
+    </div>   
+      <div class="inform-block">
+        <div class="best-comments">
+            <div class="best-comments-info">
+        <img src="./assets/images/our.png" alt="images">
+
+        <h3>Due markes</h3>
+        <h4>Rental</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+        <i class="icon-test G-justify-center"></i>
+    </div>
+</div>
+</div>
+</div>
+        </div>
+    </section>
+    <footer class="container" style="background-color: black;">
+        <div class="team-block G-flex G-justify-center">
+            <div class="footer-block">
+                <h2>Useful links</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+            </div>
+            <div class="footer-block icon-inform">
+                <h2>Find us</h2>
+               <div class="G-flex"><i class="icon-location_on_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 G-flex"></i>
+            <p>It is a long established fact that a
+                reader will be distracted</p>
+            </div> 
+            <div class="G-flex">
+                <i class="icon-phone G-flex"> </i>
+                <div class="G-flex-wrap">
+                <p>(+71) 1234567890 </p>
+                <p>(+71) 1234567890 </p></div>
+            </div>
+            <div class="G-flex">
+                <i class="icon-envelope G-flex"> </i>
+                <p> mail@domain.com</p>
+            </div>
+            </div>
+            <div class="footer-block">
+                <h2>News letter</h2>
+                <input type="text" placeholder="Email">
+                <button>Subscribe</button>
+               <div class="footer-icon G-flex">
+               <a href="index.html"><i class="icon-facebook"></i></a>
+               <a href="index.html"><i class="icon-twitter"></i></a>
+               <a href="index.html"><i class="icon-linkedin"></i></a>
+               <a href="index.html"><i class="icon-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="container">
+        <div class="reserv G-justify-center">© 2045 All Rights Reserved. By HTML Design</div>
+    </section>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

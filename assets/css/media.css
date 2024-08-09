@@ -8,18 +8,89 @@
 
 }
 @media (max-width: 1200px) {
+    .section-block {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .information-block{
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .team-block images{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-block{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .inform-block{
+        width: 100%;
+    }
 
 }
 @media (max-width: 991px) {
+    .header-block{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .inform-block{
+        width: 100%;
+    }
+    .information{
+     width: 100%;
+    }
+    .team-inform{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+   
 
 }
 @media (max-width: 767px) {
+    .header-block{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .names{
+        font-size: 20px;
+    }
+    .information-block{
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .inform-block{
+        width: 100%;
+    }
+    .team-block{
+        flex-direction: column;
+        justify-content: center;
 
+
+    }
 }
 @media (max-width: 576px) {
+    .inform-block{
+        width: 100%;
+    }
 
 }
 @media (max-width: 320px) {
+    .inform-block{
+        width: 100%;
+    }
 
 }
 
